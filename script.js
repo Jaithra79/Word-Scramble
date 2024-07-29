@@ -17,16 +17,16 @@ let words = [
       hint: "The act of trading"
     },
     {
-      word: "canvas",
-      hint: "Piece of fabric for oil painting"
+      word: "piezoelectric effect",
+      hint: "The working of quartz crystal in the watch is based on "
     },
     {
       word: "garden",
       hint: "Space for planting flower and plant"
     },
     {
-      word: "position",
-      hint: "Location of someone or something"
+      word: "kerala",
+      hint: "sabari mala temple is located in"
     },
     {
       word: "feather",
@@ -45,32 +45,32 @@ let words = [
       hint: "The process of increase or grow"
     },
     {
-      word: "country",
-      hint: "A politically identified region"
+      word: "pathalogy",
+      hint: "The science of causes and effects of diseases"
     },
     {
       word: "group",
       hint: "A number of objects or persons"
     },
     {
-      word: "taste",
-      hint: "Ability of tongue to detect flavour"
+      word: "sulphonates",
+      hint: "Detergents used for cleaning clothes and utensils contain"
     },
     {
-      word: "store",
-      hint: "Large shop where goods are traded"
+      word: "phonetics",
+      hint: "science of speech sounds"
     },
     {
       word: "field",
       hint: "Area of land for farming activities"
     },
     {
-      word: "friend",
-      hint: "Person other than a family member"
+      word: "mendel",
+      hint: "Law of heredity were put forward by"
     },
     {
-      word: "pocket",
-      hint: "A bag for carrying small items"
+      word: "seismology",
+      hint: "The study of earthquakes"
     },
     {
       word: "needle",
@@ -81,16 +81,16 @@ let words = [
       hint: "Person with extensive knowledge"
     },
     {
-      word: "statement",
-      hint: "A declaration of something"
+      word: "thermal energy",
+      hint: "Energy that is produced commercially from coal is called"
     },
     {
       word: "second",
       hint: "One-sixtieth of a minute"
     },
     {
-      word: "library",
-      hint: "Place containing collection of books"
+      word: "iodine",
+      hint: "Goitre is caused by the deficiency of"
     }
   ];
   
