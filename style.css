@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    min-height: 100vh;
+    background: linear-gradient(to left top, pink, lavender, violet);
+}
+
+.container{
+    width: 420px;
+    border-radius: 10px;
+    background: #222;
+}
+
+.container h2{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px 25px;
+    border-bottom: 1px solid #333;
+    color: whitesmoke;
+}
+
+.container .content{
+    margin: 25px 20px 35px;
+}
+
+.content .word{
+    user-select: none;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 18px;
+    margin-right: -18px;
+    word-break: break-all;
+    text-transform: uppercase;
+    color: #5372f0;
+}
+
+.content .details{
+    margin: 25px 0 20px;
+}
+
+.details p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #bbb;
+}
+
+.content input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #111;
+}
+
+.content input:focus{
+    border-color: #5372f0;
+    background-color: #222;
+    color: #fff;
+}
+
+.content input::placeholder{
+    color: #555;
+}
+
+.content input:focus::placeholder{
+    color: #bbb;
+}
+
+.content .btn{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.btn button{
+    border: none;
+    outline: none;
+    color: indigo;
+    cursor: pointer;
+    padding: 14px 0;
+    font-size:16px ;
+    border-radius: 8px;
+    width: calc(50%-6px);
+}
+
+.btn button:active{
+    transform: scale(0.97);
+}
+
+.btn .refresh-wrd{
+    background: white;
+}
+
+.btn .refresh-wrd:hover{
+    background: lightcoral;
+}
+
+.btn .check-wrd{
+    background: white;
+}
+
+.btn .check-wrd:hover{
+    background:lightgreen;
+}
